@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex Launchx</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="assets/img/logo.png" alt="logo pokemon">
+    </div>
+    <div class="busqueda">
+        <input type="text" id="pokeName" class="nombre" placeholder="Nombre o ID">
+        <button id="btnbusqueda" class="btnbusqueda">Buscar</button>
+    </div>
+    <div class="pokedex">
+        <div class="paneliz">
+            <div class="circuloazul"></div>
+            <div class="circulorojo"></div>
+            <div class="circuloamarillo"></div>
+            <div class="circuloverde"></div>
+            <hr class="lineahori">
+            <hr class="lineadiag">
+            <hr class="lineahori2">
+            <div class="imgpokemon">
+                <img src="assets/img/pokeball.png" alt="" id="pokeImg">
+            </div>
+            <div class="circulonegro"></div>
+            <div class="circulorojo2"></div>
+            <div class="circuloazul2"></div>
+            <div class="cuadroverde">
+                <P class="nombrep" id="nombrepantalla">Nombre: -pokemon-</P>
+            </div>
+            <div class="cruz"></div>
+            <div class="cruz2"></div>
+        </div>
+        <div class="panelder">
+            <div class="cuadrogris"></div>
+            <div class="trapecio"></div>
+            <div class="cuadrogris2"></div>
+            <div class="cuadrogris3"></div>
+            <hr class="lineadiag2">
+            <hr class="lineahori3">
+            <div class="datos">
+                <table>
+                    <tr>
+                        <th>Height:</th>
+                        <td id="height">0</td>
+                        <th>Weight:</th>
+                        <td id="weight">0</td>
+                    </tr>
+                    <tr>
+                        <th>HP:</th>
+                        <td id="hp">0</td>
+                        <th>Attack:</th>
+                        <td id="attack">0</td>
+                    </tr>
+                    <tr>
+                        <th>Defense:</th>
+                        <td id="defense">0</td>
+                        <th>Special Attack:</th>
+                        <td id="specialattack">0</td>
+                    </tr>
+                    <tr>
+                        <th>Special Defense:</th>
+                        <td id="specialdefense">0</td>
+                        <th>Speed:</th>
+                        <td id="speed">0</td>
+                    </tr>
+                </table>
+            </div>
+            <button id="shinypokemon" class="shinypoke">shiny</button>
+            <div class="verdecuadro">
+                <p id="tipo">Tipo: -tipo-</p>
+            </div>
+            <div class="verdecuadro2">
+                <p id="idpokemon">ID: -ID-</p>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/pokedex.js"></script>
+</body>
+</html>
